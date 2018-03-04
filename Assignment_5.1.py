@@ -1,4 +1,4 @@
-# The below function has the exception handling
+# The below function has the exception handling. On error, it returns the error string else, a number
 def divide(numerator,denominator):
     try:
         result = numerator / denominator
